@@ -12,7 +12,35 @@
     "text": {
       "type": "string"
     },
-    "author": {
+    "author_name": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "author_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "url": {
+      "type": "string"
+    },
+    "author_description": {
       "type": "string"
     }
   }

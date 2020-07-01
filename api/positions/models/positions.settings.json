@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "positions",
+  "info": {
+    "name": "Positions"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "department": {
+      "type": "enumeration",
+      "enum": [
+        "marketing",
+        "engineering",
+        "sales"
+      ]
+    },
+    "responsibilities": {
+      "type": "json"
+    }
+  }
+}

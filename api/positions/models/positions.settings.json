@@ -25,6 +25,22 @@
     },
     "responsibilities": {
       "type": "json"
+    },
+    "qualifications": {
+      "type": "json"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "full_time",
+        "part_time",
+        "internship",
+        "volunteer",
+        "contract"
+      ]
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

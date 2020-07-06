@@ -36,6 +36,12 @@
     },
     "google_play": {
       "type": "string"
+    },
+    "description_sw": {
+      "type": "string"
+    },
+    "description_bs": {
+      "type": "string"
     }
   }
 }

@@ -41,6 +41,12 @@
     },
     "description": {
       "type": "text"
+    },
+    "description_bs": {
+      "type": "text"
+    },
+    "description_sw": {
+      "type": "text"
     }
   }
 }

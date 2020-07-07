@@ -3,7 +3,7 @@
   "providerOptions": {
     "accessKeyId": "AKIAVF2HZMFEFGEOX7LX",
     "secretAccessKey": "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",
-    "region": "eu-test-1",
+    "region": "eu-west-1",
     "params": {
       "Bucket": "strapi-kenan-test"
     }

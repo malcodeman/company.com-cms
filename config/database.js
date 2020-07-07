@@ -1,11 +1,15 @@
 module.exports = ({ env }) => ({
-  defaultConnection: 'default',
+  defaultConnection: "default",
   connections: {
     default: {
-      connector: 'bookshelf',
+      connector: "bookshelf",
       settings: {
-        client: 'sqlite',
-        filename: env('DATABASE_FILENAME', '.tmp/data.db'),
+        client: "mysql",
+        host: "strapi2.cc4laerm1ffz.eu-west-1.rds.amazonaws.com",
+        port: 3306,
+        username: "admin",
+        password: "nn4ACh9mst9J",
+        database: "strapi",
       },
       options: {
         useNullAsDefault: true,

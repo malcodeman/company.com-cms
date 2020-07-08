@@ -10,7 +10,7 @@
   },
   "attributes": {
     "text": {
-      "type": "string"
+      "type": "text"
     },
     "author_name": {
       "type": "string"
@@ -44,10 +44,10 @@
       "type": "string"
     },
     "text_sw": {
-      "type": "string"
+      "type": "text"
     },
     "text_bs": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

@@ -9,5 +9,5 @@ CMS for my company website.
 ```
 git clone https://github.com/malcodeman/company.com-cms.git
 cd company.com-cms
-yarn install && yarn start
+yarn install && yarn develop
 ```
